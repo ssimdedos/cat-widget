@@ -3,8 +3,6 @@ import { useState } from "react";
 import './catdog.css';
 
 const Catdog = () => {
-  const [cats, setCats] = useState([]);
-  const [dogs, setDogs] = useState([]);
   const [pets, setPets] = useState([]);
   const loadPets = async(who) => {
     let url = '';
